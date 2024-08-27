@@ -1,25 +1,25 @@
 # SIH 2024
 
 ## 1. Introduction
-Indian Coal Mine Carbon Footprint Web Application is a comprehensive solution designed to help Indian coal mines quantify their carbon footprint and explore pathways to carbon neutrality. The application aims to assist coal mine operators in tracking, reducing, and offsetting their carbon emissions through data-driven strategies and actionable insights.
+The Indian Coal Mine Carbon Footprint Web Application is a comprehensive solution designed to help Indian coal mines quantify their carbon footprint and explore pathways to carbon neutrality. This application assists coal mine operators in tracking, reducing, and offsetting their carbon emissions through data-driven strategies and actionable insights.
 
 ## 2. Problem Statement
-India's coal mining industry is a significant contributor to carbon emissions, which poses challenges to the country’s climate change commitments. To achieve carbon neutrality, coal mines must adopt strategies to reduce their emissions and offset remaining emissions through methods like afforestation. The lack of a dedicated tool to quantify carbon emissions and explore reduction pathways creates a gap in achieving these sustainability goals.
+India's coal mining industry significantly contributes to carbon emissions, posing challenges to the country’s climate change commitments. To achieve carbon neutrality, coal mines must adopt strategies to reduce emissions and offset the remainder through methods like afforestation. The absence of a dedicated tool to quantify carbon emissions and explore reduction pathways creates a gap in achieving these sustainability goals.
 
 ## 3. Project Objectives
-- **Quantify Carbon Emissions:** Provide a detailed calculation of carbon emissions based on various mining activities.
+- **Quantify Carbon Emissions:** Provide detailed calculations of carbon emissions based on various mining activities.
 - **Assess Carbon Sinks:** Evaluate existing carbon sinks, such as forests, to understand their offset potential.
 - **Suggest Carbon Neutrality Pathways:** Offer strategies for reducing emissions through clean technologies, afforestation, and renewable energy sources.
 - **Visualize Data:** Present results through interactive charts and graphs for better understanding and decision-making.
 
 ## 4. Solution Overview
-The web application enables coal mines to input data regarding their mining activities, calculates their associated carbon emissions, and evaluates potential pathways to carbon neutrality. It provides a clear and actionable report on how to achieve sustainability goals, supported by data visualization tools.
+This web application enables coal mines to input data regarding their mining activities, calculates the associated carbon emissions, and evaluates potential pathways to carbon neutrality. It provides clear and actionable reports on how to achieve sustainability goals, supported by data visualization tools.
 
 ## 5. Core Features
 - **Activity-wise Carbon Emission Calculation:** Users can input data related to excavation, transportation, and equipment usage to calculate emissions.
 - **Carbon Sink Assessment:** Evaluation of forests and other carbon sinks to estimate their contribution to offsetting emissions.
 - **Emission Reduction Strategies:** Tools for simulating the impact of clean technologies, afforestation, and renewable energy adoption.
-- **Data Visualization:** Interactive charts and graphs to track emissions and effectiveness of implemented strategies.
+- **Data Visualization:** Interactive charts and graphs to track emissions and the effectiveness of implemented strategies.
 - **Carbon Credit Estimation:** Calculation of potential carbon credits based on current market rates.
 
 ## 6. User Flow & Interaction
@@ -35,7 +35,7 @@ The web application enables coal mines to input data regarding their mining acti
 - **Visualization:** Integrated tools for generating charts and graphs.
 
 ## 8. Technology Stack
-(Placeholder for technology stack)
+(Not yet decided, will update)
 
 ## 9. Data Flow and Management
 - **Data Input:** User inputs related to mining activities.
@@ -44,16 +44,16 @@ The web application enables coal mines to input data regarding their mining acti
 - **Output:** Data visualization and report generation.
 
 ## 10. Scalability & Performance
-(Placeholder for scalability and performance considerations)
+(Will update later)
 
 ## 11. Security Considerations
-(Placeholder for security details)
+(To be finalized)
 
 ## 12. Testing Strategy
-(Placeholder for testing strategy)
+(Will define this later)
 
 ## 13. Deployment & Hosting
-(Placeholder for deployment and hosting setup)
+(Still deciding on setup)
 
 ## 14. Expected Outcomes
 - **Emission Transparency:** Clear insights into a mine's carbon footprint.
@@ -62,7 +62,7 @@ The web application enables coal mines to input data regarding their mining acti
 - **Sustainability:** Support for India’s climate goals through actionable emission reduction plans.
 
 ## 15. Business Impact
-(Placeholder for business impact details)
+(To be detailed soon)
 
 ## 16. Challenges & Limitations
 - **Data Accuracy:** Reliance on accurate user input and emission factors.
@@ -75,10 +75,20 @@ The web application enables coal mines to input data regarding their mining acti
 - **Advanced Analytics:** Incorporate machine learning for predictive analytics and trend forecasting.
 
 ## 18. Usage Instructions
-(Placeholder for usage instructions)
+(To be provided)
 
 ## 19. Acknowledgments
-(Placeholder for acknowledgments)
+- **Onkar Yaglewad:** Backend Development  
+  [GitHub](https://github.com/once-human)
+- **Kiran Biradar:** Frontend Development  
+  [GitHub](https://github.com/KiruOP)
+- **Neeraj Chormale:** Team Lead / Coordination  
+  [GitHub](https://github.com/Zor0000)
+- **Atharva Phadatare:** Ideation & Design  
+  [GitHub](https://github.com/Atharva302)
+- **Prathamesh Chandekar:** Data Analytics & Graphs  
+  [GitHub](https://github.com/Prathamesh-Chandekar)
+- **Khushi Solanki:** Presentation & Graphic Design  
 
 ## 20. Contact Information
 - **Project Maintainers:** Onkar Yaglewad - Tech stuff  
