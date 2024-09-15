@@ -1,83 +1,81 @@
 # SIH 2024
 
 ## 1. Introduction
-The Indian Coal Mine Carbon Footprint Web Application is a comprehensive solution designed to help Indian coal mines quantify their carbon footprint and explore pathways to carbon neutrality. This application assists coal mine operators in tracking, reducing, and offsetting their carbon emissions through data-driven strategies and actionable insights.
+The Alumni Association Platform is an innovative solution aimed at fostering a stronger relationship between alumni and the institution. The platform provides a space for alumni to stay connected, participate in events, mentor students, donate towards initiatives, and share their success stories, while also offering a robust networking hub for both alumni and students.
 
 ## 2. Problem Statement
-India's coal mining industry significantly contributes to carbon emissions, posing challenges to the country’s climate change commitments. To achieve carbon neutrality, coal mines must adopt strategies to reduce emissions and offset the remainder through methods like afforestation. The absence of a dedicated tool to quantify carbon emissions and explore reduction pathways creates a gap in achieving these sustainability goals.
+As alumni communities grow, it becomes increasingly challenging for institutions to maintain meaningful engagement with their graduates. There is a need for a centralized platform where alumni can easily connect, contribute to their alma mater, and participate in activities that foster a sense of community. Additionally, providing students with access to a network of alumni for mentorship and guidance is critical but often overlooked.
 
 ## 3. Project Objectives
-- **Quantify Carbon Emissions:** Provide detailed calculations of carbon emissions based on various mining activities.
-- **Assess Carbon Sinks:** Evaluate existing carbon sinks, such as forests, to understand their offset potential.
-- **Suggest Carbon Neutrality Pathways:** Offer strategies for reducing emissions through clean technologies, afforestation, and renewable energy sources.
-- **Visualize Data:** Present results through interactive charts and graphs for better understanding and decision-making.
-
+- **Foster Alumni Engagement:** Provide alumni with a dedicated platform to stay connected with their peers and the institution.
+- **Facilitate Mentorship Programs:** Enable students to connect with alumni mentors for career guidance and advice.
+- **Streamline Event Management:** Offer tools for organizing and attending alumni reunions, events, and workshops.
+- **Enable Donations:** Provide a transparent and seamless way for alumni to donate towards specific events and initiatives.
+- **Create Networking Opportunities:** Build a community where alumni can network with each other and students for job opportunities and collaborations.
+  
 ## 4. Solution Overview
-This web application enables coal mines to input data regarding their mining activities, calculates the associated carbon emissions, and evaluates potential pathways to carbon neutrality. It provides clear and actionable reports on how to achieve sustainability goals, supported by data visualization tools.
+This web application provides a comprehensive platform for alumni to engage with their alma mater. It allows for alumni registration, event management, donation tracking, networking opportunities, and mentorship programs, all within a user-friendly interface. Students also gain access to valuable resources by connecting with alumni for mentorship and job opportunities.
 
 ## 5. Core Features
-- **Activity-wise Carbon Emission Calculation:** Users can input data related to excavation, transportation, and equipment usage to calculate emissions.
-- **Carbon Sink Assessment:** Evaluation of forests and other carbon sinks to estimate their contribution to offsetting emissions.
-- **Emission Reduction Strategies:** Tools for simulating the impact of clean technologies, afforestation, and renewable energy adoption.
-- **Data Visualization:** Interactive charts and graphs to track emissions and the effectiveness of implemented strategies.
-- **Carbon Credit Estimation:** Calculation of potential carbon credits based on current market rates.
+- **Alumni Registration & Directory:** Alumni can sign up and create profiles, allowing others to search and connect based on batch, profession, or location.
+- **Event & Reunion Management:** Alumni can register for upcoming reunions and events, with detailed information available about each event.
+- **Donations for Specific Events:** Alumni can view cards detailing various events or initiatives and donate to those they wish to support.
+- **Mentorship Program:** A dedicated feature where students can seek mentorship from alumni in their respective fields.
+- **Job Portal:** Alumni and students can browse and apply for job postings or internships shared within the community.
+- **Success Stories:** Alumni can share their career journeys and achievements, inspiring current students and other alumni.
 
 ## 6. User Flow & Interaction
-- **Input Section:** Users input data related to their mining activities, including fuel types, activity intensity, etc.
-- **Calculation Engine:** The application calculates emissions using predefined emission factors.
-- **Visualization Dashboard:** Users view their emissions data and explore reduction strategies through a user-friendly interface.
-- **Reporting Section:** Generate reports that summarize carbon emissions, reduction strategies, and potential carbon credits.
+- **Alumni Registration:** Alumni create profiles by entering personal, academic, and professional information.
+- **Dashboard:** Alumni access a personalized dashboard with options to view events, manage donations, or connect with other members.
+- **Donation Portal:** Alumni can select specific events or initiatives to donate to by viewing detailed cards that outline the purpose and need for donations.
+- **Mentorship Connection:** Students can browse alumni mentors and request guidance based on their professional interests.
 
 ## 7. Technical Architecture
-- **Frontend:** Web-based user interface.
-- **Backend:** API for handling data processing and storage.
-- **Database:** Storage for user inputs, emissions data, and carbon sinks.
-- **Visualization:** Integrated tools for generating charts and graphs.
+#### 1. Frontend Layer:
+- **Flutter UI**: Connected to user input
+- **State Management**: Provider or Riverpod
+- **Google Fonts & Icons**
 
-## 8. Technology Stack
-(Not yet decided, will update)
+#### 2. Backend Layer:
+- **Dart Backend**: Framework: Aqueduct/Shelf
+- **Authentication**: Firebase Auth or OAuth2
+- **Realtime Data**: Firebase Firestore
+- **Database**: MySQL
+- **Push Notification**: Firebase Cloud Messaging
+- **API Documentation**: Postman
 
-## 9. Data Flow and Management
-- **Data Input:** User inputs related to mining activities.
-- **Processing:** Emission calculations based on emission factors.
-- **Storage:** Secure storage of user data and results.
-- **Output:** Data visualization and report generation.
+#### 3. DevOps Layer:
+- **CI/CD Pipeline**: GitHub Actions, GitLab CI
+- **Version Control**: GitHub
+- **Deployment**: Docker, Nginx
 
-## 10. Scalability & Performance
-(Will update later)
+#### 4. Analytics & Additional Tools:
+- **Analytics**: Firebase Analytics, Google Analytics
+- **Payment Integration**: Razorpay
 
-## 11. Security Considerations
-(To be finalized)
+## 8. Data Flow and Management
+- **Data Input:** Alumni register and provide personal, academic, and professional data.
+- **Processing:** Backend handles event registration, donation tracking, and mentor-student matching.
+- **Storage:** Secure storage of user data, donations, and event information.
+- **Output:** Dashboards, event listings, donation summaries, and networking options.
 
-## 12. Testing Strategy
-(Will define this later)
 
-## 13. Deployment & Hosting
-(Still deciding on setup)
+## 9. Expected Outcomes
+- **Enhanced Alumni Engagement:** Stronger connections between alumni and the institution through events, donations, and mentorship.
+- **Career Advancement Opportunities:** Alumni can network with each other and students for potential job opportunities and collaborations.
+- **Seamless Event & Donation Management:** A transparent, secure platform for alumni to register for events and contribute to causes they care about.
+- **Increased Philanthropic Support:** The platform will make it easier for alumni to give back to their alma mater by donating to specific events and initiatives.
 
-## 14. Expected Outcomes
-- **Emission Transparency:** Clear insights into a mine's carbon footprint.
-- **Informed Decision-Making:** Data-driven strategies for emission reduction.
-- **Cost Savings:** Identification of opportunities to optimize operations and reduce costs.
-- **Sustainability:** Support for India’s climate goals through actionable emission reduction plans.
+## 10. Challenges & Limitations
+- **User Engagement:** Encouraging consistent use of the platform by both alumni and students.
+- **Data Management:** Ensuring the accuracy and security of user data while scaling the platform.
+- **Donation Process:** Ensuring a seamless and transparent donation process that builds trust among alumni.
 
-## 15. Business Impact
-(To be detailed soon)
+## 11. Future Enhancements & Roadmap
+- **AI-Powered Networking Suggestions:** Utilize AI to recommend potential connections between alumni and students for mentorship and networking based on shared interests or professional backgrounds.
+- **Advanced Analytics:** Provide insights into alumni engagement and donation trends for better decision-making.
 
-## 16. Challenges & Limitations
-- **Data Accuracy:** Reliance on accurate user input and emission factors.
-- **Scalability:** Challenges in scaling the application to accommodate diverse mine operations.
-- **Implementation Costs:** Initial costs for adopting new technologies and strategies.
-
-## 17. Future Enhancements & Roadmap
-- **AI Integration:** Utilize AI for more accurate emission predictions and optimization strategies.
-- **Mobile Application:** Develop a mobile version of the application for on-site data entry.
-- **Advanced Analytics:** Incorporate machine learning for predictive analytics and trend forecasting.
-
-## 18. Usage Instructions
-(To be provided)
-
-## 19. Acknowledgments
+## 12. Acknowledgments
 - **Onkar Yaglewad:** Backend Development  
   [GitHub](https://github.com/once-human)
 - **Kiran Biradar:** Frontend Development  
@@ -90,7 +88,7 @@ This web application enables coal mines to input data regarding their mining act
   [GitHub](https://github.com/Prathamesh-Chandekar)
 - **Khushi Solanki:** Presentation & Graphic Design  
 
-## 20. Contact Information
+## 13. Contact Information
 - **Project Maintainers:** Onkar Yaglewad - Tech stuff  
   [LinkedIn](https://www.linkedin.com/in/yaglewad-onkar/)
 - **Project Maintainers:** Neeraj Chormale - Presentation and other content  
