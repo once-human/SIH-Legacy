@@ -8,7 +8,24 @@ class HomeScreen extends StatelessWidget {
         title: Text('Home'),
       ),
       body: Center(
-        child: Text('Welcome to the Home Screen!'),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            ElevatedButton(
+              onPressed: () {
+                Navigator.pushNamed(context, '/login');
+              },
+              child: Text('Login'),
+            ),
+            SizedBox(height: 20),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.pushNamed(context, '/signup');
+              },
+              child: Text('Sign Up'),
+            ),
+          ],
+        ),
       ),
     );
   }
