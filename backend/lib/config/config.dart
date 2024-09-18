@@ -13,7 +13,7 @@ class DBConfig {
     port: 3306,
     user: 'root',
     db: 'u754318492_legacy_root',
-    password: 'Sy3v>j9\$'
+    password: 'demopassword'
   );
 
 
