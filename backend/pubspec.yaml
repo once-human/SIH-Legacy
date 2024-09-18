@@ -10,6 +10,12 @@ environment:
 dependencies:
   shelf: ^1.4.2
   shelf_router: ^1.1.4
+  mysql1: ^0.20.0
+  json_annotation: ^4.9.0
+  crypto: ^3.0.5
+  jwt_decoder: ^2.0.1
+  shelf_modular: ^2.1.0 # for routing
+  jaguar_jwt: ^3.0.0
 
 
 dev_dependencies:
