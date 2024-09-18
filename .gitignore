@@ -43,4 +43,4 @@ app.*.map.json
 /android/app/release
 
 # Custom gitignore
-/backend/config/config.dart
+backend/lib/config/config.dart
