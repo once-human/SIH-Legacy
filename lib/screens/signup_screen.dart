@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import '../services/auth_service.dart'; // Import the AuthService class
 
 class SignupScreen extends StatefulWidget {
+  const SignupScreen({super.key});
+
   @override
   _SignupScreenState createState() => _SignupScreenState();
 }
@@ -25,13 +27,13 @@ class _SignupScreenState extends State<SignupScreen> {
       if (success) {
         // Registration successful
         ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(content: Text('Registration successful!')),
+          const SnackBar(content: Text('Registration successful!')),
         );
         Navigator.pop(context); // Take user back to login screen
       } else {
         // Registration failed
         ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(content: Text('Registration failed. Please try again.')),
+          const SnackBar(content: Text('Registration failed. Please try again.')),
         );
       }
     }
@@ -41,7 +43,7 @@ class _SignupScreenState extends State<SignupScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Signup'),
+        title: const Text('Signup'),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
@@ -50,7 +52,7 @@ class _SignupScreenState extends State<SignupScreen> {
           child: Column(
             children: <Widget>[
               TextFormField(
-                decoration: InputDecoration(labelText: 'Username'),
+                decoration: const InputDecoration(labelText: 'Username'),
                 validator: (value) {
                   if (value == null || value.isEmpty) {
                     return 'Please enter a username';
@@ -62,7 +64,7 @@ class _SignupScreenState extends State<SignupScreen> {
                 },
               ),
               TextFormField(
-                decoration: InputDecoration(labelText: 'Email'),
+                decoration: const InputDecoration(labelText: 'Email'),
                 keyboardType: TextInputType.emailAddress,
                 validator: (value) {
                   if (value == null || value.isEmpty) {
@@ -75,7 +77,7 @@ class _SignupScreenState extends State<SignupScreen> {
                 },
               ),
               TextFormField(
-                decoration: InputDecoration(labelText: 'Password'),
+                decoration: const InputDecoration(labelText: 'Password'),
                 obscureText: true,
                 validator: (value) {
                   if (value == null || value.isEmpty) {
@@ -88,7 +90,7 @@ class _SignupScreenState extends State<SignupScreen> {
                 },
               ),
               TextFormField(
-                decoration: InputDecoration(labelText: 'Confirm Password'),
+                decoration: const InputDecoration(labelText: 'Confirm Password'),
                 obscureText: true,
                 validator: (value) {
                   if (value == null || value.isEmpty) {
@@ -99,10 +101,10 @@ class _SignupScreenState extends State<SignupScreen> {
                   return null;
                 },
               ),
-              SizedBox(height: 20),
+              const SizedBox(height: 20),
               ElevatedButton(
                 onPressed: _Signup,
-                child: Text('Sign Up'),
+                child: const Text('Sign Up'),
               ),
             ],
           ),
